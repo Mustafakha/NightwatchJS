@@ -13,6 +13,10 @@
         "webdriver.chrome.driver": "./node_modules/chromedriver/lib/chromedriver/chromedriver"
       }
     },
+    "test_workers" :{
+        "enabled" :true,
+        "workers" :"auto"
+    },
     "test_settings" : {
         "chrome": {
             "launch_url": "http://localhost",
