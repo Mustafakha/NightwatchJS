@@ -5,21 +5,21 @@
 
   <testsuite name="main"
     errors="0" failures="0" hostname="" id="" package="main" skipped="0"
-    tests="5" time="1.863" timestamp="">
+    tests="5" time="1.771" timestamp="">
   
-    <testcase name="GIVEN I am on the web page" classname="main" time="1.107" assertions="1">
+    <testcase name="GIVEN I am on the web page" classname="main" time="1.126" assertions="1">
 
     
     </testcase>
   
-    <testcase name="AND the input fields are present" classname="main" time="0.05800" assertions="2">
+    <testcase name="AND the input fields are present" classname="main" time="0.05500" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="WHEN I input the correct values and login" classname="main" time="0.6210" assertions="0">
+    <testcase name="WHEN I input the correct values and login" classname="main" time="0.5230" assertions="0">
     </testcase>
   
     <testcase name="THEN the page will re load" classname="main" time="0.03800" assertions="1">
@@ -27,7 +27,7 @@
     
     </testcase>
   
-    <testcase name="AND the text class will be &#34;success&#34;" classname="main" time="0.03900" assertions="1">
+    <testcase name="AND the text class will be &#34;success&#34;" classname="main" time="0.02900" assertions="1">
 
     
     </testcase>
