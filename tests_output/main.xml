@@ -4,7 +4,7 @@
             tests="0">
 
   <testsuite name="main"
-    errors="1" failures="0" hostname="" id="" package="main" skipped="1"
+    errors="1" failures="0" hostname="" id="" package="main" skipped="5"
     tests="0" time="0.000" timestamp="">
   
 
@@ -13,7 +13,27 @@
   
     
     <testcase
-      name="Demo test Google" classname="main">
+      name="GIVEN I am on the web page" classname="main">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="AND the input fields are present" classname="main">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="WHEN I input the correct values and login" classname="main">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="THEN the page will re load" classname="main">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="AND the text class will be &#34;success&#34;" classname="main">
       <skipped />
     </testcase>
     

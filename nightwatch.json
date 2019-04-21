@@ -4,18 +4,15 @@
     "custom_assertions_path": "",
     "selenium": {
       "start_process": true,
-      "server_path": "./node_modules/selenium-server-standalone/index.jar",
+      "server_path": "drivers/selenium-server-standalone-3.141.59.jar",
       "start_session": true,
       "log_path": "log/",
       "host": "127.0.0.1",
       "port": 4444,
       "cli_args": {
-        "webdriver.chrome.driver": "./node_modules/chromedriver/lib/chromedriver/chromedriver"
+        "webdriver.chrome.driver": "drivers/chromedriver.exe",
+        "webdriver.edge.driver": "./drivers/MicrosoftWebDriver.exe"
       }
-    },
-    "test_workers" :{
-        "enabled" :true,
-        "workers" :"auto"
     },
     "test_settings" : {
         "chrome": {
@@ -38,11 +35,13 @@
               }
             }
           },
-  
-      "edge" : {
-        "desiredCapabilities": {
-          "browserName": "MicrosoftEdge"
-        }
-      }
+          "edge": {
+            "desiredCapabilities": {
+                "browserName": "MicrosoftEdge",
+                "javascriptEnabled": true,
+                "acceptSslCerts": true,
+                "pageLoadStrategy": "eager"
+            }
+}
     }
   }
