@@ -9,7 +9,7 @@ For a **Windows** Environment:
 
 All remaining dependencies *should* be included in project :)
 
-For a **Liux** Environment:
+For a **Linux** Environment:
 * All tests done on Ubuntu 18.04
 * Nightwatch installed
 * Node + NPM installed
