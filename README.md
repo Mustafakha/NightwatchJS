@@ -6,6 +6,7 @@ For a **Windows** Environment:
 * Node + NPM installed
 * Java 8 atleast required
 * **IMPORTANT** In order for I.E tests to be able to click, change local Display Settings to **100%**, otherwise tests fail
+
 All remaining dependencies *should* be included in project :)
 
 For a **Liux** Environment:
