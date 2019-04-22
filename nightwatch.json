@@ -38,6 +38,7 @@
           },
           "ie": {
             "desiredCapabilities": {
+                "nativeEvents" : false,
                 "javascriptEnabled": true,
                 "acceptSslCerts": true,
                 "browserName": "internet explorer",

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="failure"
+    errors="1" failures="0" hostname="" id="" package="failure" skipped="5"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+
+  
+    
+    <testcase
+      name="GIVEN I am on the web page" classname="failure">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="AND the input fields are present" classname="failure">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="WHEN I input the wrong values and login" classname="failure">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="THEN the page will re load" classname="failure">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="AND the text class will be &#34;error&#34; " classname="failure">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

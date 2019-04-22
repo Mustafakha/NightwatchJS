@@ -1,22 +1,22 @@
-17:23:13.615 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
-17:23:13.686 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
-2019-04-21 17:23:13.740:INFO::main: Logging initialized @372ms to org.seleniumhq.jetty9.util.log.StdErrLog
-17:23:13.984 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
-17:23:14.074 ERROR [BaseServer.start] - Port 4444 is busy, please choose a free port and specify it using -port option
+22:21:14.940 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+22:21:15.070 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
+2019-04-21 22:21:15.154:INFO::main: Logging initialized @583ms to org.seleniumhq.jetty9.util.log.StdErrLog
+22:21:15.537 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+22:21:15.658 ERROR [BaseServer.start] - Port 4444 is busy, please choose a free port and specify it using -port option
 Exception in thread "main" java.lang.RuntimeException: java.net.BindException: Address already in use: bind
 	at org.openqa.selenium.grid.server.BaseServer.start(BaseServer.java:221)
 	at org.openqa.selenium.remote.server.SeleniumServer.boot(SeleniumServer.java:131)
 	at org.openqa.grid.selenium.GridLauncherV3.lambda$buildLaunchers$3(GridLauncherV3.java:249)
 	at org.openqa.grid.selenium.GridLauncherV3.lambda$launch$0(GridLauncherV3.java:86)
-	at java.base/java.util.Optional.map(Optional.java:265)
+	at java.util.Optional.map(Unknown Source)
 	at org.openqa.grid.selenium.GridLauncherV3.launch(GridLauncherV3.java:86)
 	at org.openqa.grid.selenium.GridLauncherV3.main(GridLauncherV3.java:70)
 Caused by: java.net.BindException: Address already in use: bind
-	at java.base/sun.nio.ch.Net.bind0(Native Method)
-	at java.base/sun.nio.ch.Net.bind(Net.java:461)
-	at java.base/sun.nio.ch.Net.bind(Net.java:453)
-	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
-	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
 	at org.seleniumhq.jetty9.server.ServerConnector.openAcceptChannel(ServerConnector.java:339)
 	at org.seleniumhq.jetty9.server.ServerConnector.open(ServerConnector.java:307)
 	at org.seleniumhq.jetty9.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
@@ -26,5 +26,41 @@ Caused by: java.net.BindException: Address already in use: bind
 	at org.seleniumhq.jetty9.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
 	at org.openqa.selenium.grid.server.BaseServer.start(BaseServer.java:202)
 	... 6 more
-:23:19.433 INFO [ActiveSessions$1.onStop] - Removing session 371e797132d5c3d4fd34a53698e39802 (org.openqa.selenium.chrome.ChromeDriverService)
-17:24:11.919 INFO [ActiveSessions$1.onStop] - Removing session bfe7185a-68c9-4fa5-8454-bded604a7562 (org.openqa.selenium.ie.InternetExplorerDriverService)
+Handshake$0] - Started new session 05607333d1a70b3a2ee129d2ad5ce797 (org.openqa.selenium.chrome.ChromeDriverService)
+22:21:23.682 INFO [ActiveSessions$1.onStop] - Removing session 05607333d1a70b3a2ee129d2ad5ce797 (org.openqa.selenium.chrome.ChromeDriverService)
+22:21:23.727 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "chrome",
+  "chromeOptions": {
+    "args": [
+      "disable-web-security",
+      "ignore-certificate-errors",
+      "--test-type"
+    ]
+  },
+  "name": "Main"
+}
+22:21:23.727 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72) on port 28592
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+22:21:26.274 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+22:21:26.344 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 68799e1fce6bd560fbf473c76db23167 (org.openqa.selenium.chrome.ChromeDriverService)
+22:21:28.550 INFO [ActiveSessions$1.onStop] - Removing session 68799e1fce6bd560fbf473c76db23167 (org.openqa.selenium.chrome.ChromeDriverService)
+22:22:18.635 INFO [ActiveSessions$1.onStop] - Removing session 2d34f22c-133d-4abf-ac50-d744c19a235a (org.openqa.selenium.ie.InternetExplorerDriverService)
+22:22:18.667 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "internet explorer",
+  "ignoreProtectedModeSettings": true,
+  "javascriptEnabled": true,
+  "name": "Main",
+  "nativeEvents": false
+}
+22:22:18.667 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.ie.InternetExplorerDriverService)
+Started InternetExplorerDriver server (64-bit)
+3.14.0.0
+Listening on port 43855
+Only local connections are allowed
+22:22:20.458 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+22:22:20.468 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session dd147ba6-1e48-466d-b840-08038dae05fd (org.openqa.selenium.ie.InternetExplorerDriverService)
+22:23:18.383 INFO [ActiveSessions$1.onStop] - Removing session dd147ba6-1e48-466d-b840-08038dae05fd (org.openqa.selenium.ie.InternetExplorerDriverService)

@@ -20,7 +20,8 @@ module.exports = {
      browser
          .setValue('#usr', 'wrong') // send values
          .setValue('#pwd', 'wrong') // send values
-         .click('#case_login > form > input[type="submit"]:nth-child(5)') // click on login
+         //.element('css selector','#case_login').keys(['\uE007'])
+         .click('#case_login > form > input[type="submit"]:nth-child(5)') // click on login -- for i.e, had to set nativeEvents:false and in windows display settings, size of texts and apps to 100% ?? now works
    },
    'THEN the page will re load' : function (browser){
     browser
