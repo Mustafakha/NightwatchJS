@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="failure"
+    errors="0" failures="1" hostname="" id="" package="failure" skipped="5"
+    tests="1" time="1.037" timestamp="">
+  
+    <testcase name="GIVEN I am on the web page" classname="failure" time="1.037" assertions="1">  <failure message="Timed out while waiting for element &lt;body&gt; to be present for 1000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m">    at Object.GIVEN I am on the web page (/home/mustafa/Desktop/workspace/NightwatchJS/tests/failure.js:12:11)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
+
+    <failure message="    at Object.GIVEN I am on the web page (/home/mustafa/Desktop/workspace/NightwatchJS/tests/failure.js:12:11)">    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="AND the input fields are present" classname="failure">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="WHEN I input the wrong values and login" classname="failure">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="THEN the page will re load" classname="failure">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="AND the text class will be &#34;error&#34; " classname="failure">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="AND we compare screenshots" classname="failure">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
