@@ -16,7 +16,7 @@
         "webdriver" : {
           "host" : "localhost",
           "port" : 9515,
-          "server_path" : "node_modules/chromedriver/lib/chromedriver/chromedriver.exe",
+          "server_path" : "node_modules/chromedriver/lib/chromedriver/chromedriver",
           "silent": true,
           "screenshots": {
             "enabled": false,
