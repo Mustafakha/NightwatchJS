@@ -1,0 +1,37 @@
+10:44:49.424 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+10:44:49.490 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
+2019-04-25 10:44:49.528:INFO::main: Logging initialized @289ms to org.seleniumhq.jetty9.util.log.StdErrLog
+10:44:49.715 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+10:44:50.060 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
+10:44:50.726 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "internet explorer",
+  "ignoreProtectedModeSettings": true,
+  "javascriptEnabled": true,
+  "name": "Failure",
+  "nativeEvents": false
+}
+10:44:50.726 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "internet explorer",
+  "ignoreProtectedModeSettings": true,
+  "javascriptEnabled": true,
+  "name": "Main",
+  "nativeEvents": false
+}
+10:44:50.727 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.ie.InternetExplorerDriverService)
+10:44:50.727 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.ie.InternetExplorerDriverService)
+Started InternetExplorerDriver server (32-bit)
+3.14.0.0
+Listening on port 16237
+Only local connections are allowed
+Started InternetExplorerDriver server (32-bit)
+3.14.0.0
+Listening on port 47214
+Only local connections are allowed
+10:44:52.684 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+10:44:52.714 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 4936ac1a-2acd-4aec-844e-04a1e403c38c (org.openqa.selenium.ie.InternetExplorerDriverService)
+10:44:52.800 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+10:44:52.804 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session f6667593-e088-4718-8169-39f0eb531d14 (org.openqa.selenium.ie.InternetExplorerDriverService)
+10:44:56.730 INFO [ActiveSessions$1.onStop] - Removing session 4936ac1a-2acd-4aec-844e-04a1e403c38c (org.openqa.selenium.ie.InternetExplorerDriverService)
+10:44:56.740 INFO [ActiveSessions$1.onStop] - Removing session f6667593-e088-4718-8169-39f0eb531d14 (org.openqa.selenium.ie.InternetExplorerDriverService)
