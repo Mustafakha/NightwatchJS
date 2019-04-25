@@ -6,6 +6,7 @@ For a **Windows** Environment:
 * Node + NPM installed
 * Java 8 atleast required
 * **IMPORTANT** In order for I.E tests to be able to click, change local Display Settings to **100%**, otherwise tests fail
+* Also for I.E 11, drivers are out of date so several bugs, in order for it to work, the above step must be done as well as following the configuration here : (https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver#required-configuration) 
 
 All remaining dependencies *should* be included in project :)
 
@@ -14,9 +15,6 @@ For a **Linux** Environment:
 * Nightwatch installed
 * Node + NPM installed
 * Java 8 atleast required
-* Selenium-server-standalone must be running *(or if you can get Docker Container to work, that must be running)*
-* `cd drivers`
-* `java -jar selenium-server-standalone-3.141.59.jar `
 
 On both environments tests ran on VSCode.
 
