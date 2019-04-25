@@ -31,4 +31,8 @@ module.exports = {
     browser
          .assert.cssClassPresent('#case_login > h3',"error") //ensure that the text states "ACCESS DENIED" for failure login
        },
+   'AND we compare screenshots' : function(browser){
+        browser
+              .compareScreenshot('failure.png') //compare screenshots
+      }
   };

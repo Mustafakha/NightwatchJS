@@ -30,4 +30,8 @@ module.exports = {
   browser
        .assert.cssClassPresent('#case_login > h3',"success") //ensure that the text states "success" for successful login
      },
+  'AND we compare screenshots' : function(browser){
+    browser
+          .compareScreenshot('success.png') //compare screenshots
+  }
 };
