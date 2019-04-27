@@ -23,10 +23,10 @@ Pull or Clone repository and open using VSCode *(or other preferred IDE/Text edi
 
 For **WINDOWS** run the following commands
 * For both Chrome and I.E 11 running all tests input the following:
-* `nightwatch -e chrome,ie tests`
+* `node nightwatch -e chrome,selenium_server`
 * For a specific test, replaces tests with ` -a [TAG NAME] ` i.e:
-* `nightwatch -e chrome,ie -a main`
+* `node nightwatch -e chrome,selenium_server -a main`
 
 For **UBUNTU** run the following commands
-* `node nightwatch -e chrome tests`
-* Similarly, replace tests with `-a [TAG NAME] ` for running specific tests.
+* `node nightwatch -e chrome`
+* Similarly, add `-a [TAG NAME] ` for running specific tests.
