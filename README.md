@@ -4,6 +4,7 @@ For a **Windows** Environment:
 * Running Windows 10
 * Nightwatch Installed
 * Node + NPM installed
+* Latest Chrome installed
 * Java 8 atleast required
 * **IMPORTANT** In order for I.E tests to be able to click, change local Display Settings to **100%**, otherwise tests fail
 * Also for I.E 11, drivers are out of date so several bugs, in order for it to work, the above step must be done as well as following the configuration here : (https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver#required-configuration) 
@@ -14,6 +15,7 @@ For a **Linux** Environment:
 * All tests done on Ubuntu 18.04
 * Nightwatch installed
 * Node + NPM installed
+* Latest Chrome installed
 * Java 8 atleast required
 
 On both environments tests ran on VSCode.
