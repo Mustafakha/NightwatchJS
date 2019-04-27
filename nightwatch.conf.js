@@ -1,5 +1,4 @@
 //Get Drivers
-var chromedriver = require('chromedriver');
 var selenium = require('selenium-server');
 var iedriver = require('iedriver');
 
@@ -29,7 +28,7 @@ var config = {
               webdriver : {
                 host : "localhost",
                 port : 9515,
-                server_path : chromedriver.path,
+                server_path : "drivers/chromedriver.exe", //WINDOWS chromedriver , have to manually specify driver location
                 silent: true,
               },
                 desiredCapabilities: {

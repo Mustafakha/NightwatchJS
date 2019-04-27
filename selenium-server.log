@@ -1,17 +1,9 @@
-11:57:27.499 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
-11:57:27.566 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
-2019-04-25 11:57:27.603:INFO::main: Logging initialized @292ms to org.seleniumhq.jetty9.util.log.StdErrLog
-11:57:27.778 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
-11:57:28.109 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
-11:57:29.311 INFO [ActiveSessionFactory.apply] - Capabilities are: {
-  "acceptSslCerts": true,
-  "browserName": "internet explorer",
-  "ignoreProtectedModeSettings": true,
-  "javascriptEnabled": true,
-  "name": "Main",
-  "nativeEvents": false
-}
-11:57:29.311 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+19:02:49.404 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+19:02:49.472 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
+2019-04-27 19:02:49.511:INFO::main: Logging initialized @297ms to org.seleniumhq.jetty9.util.log.StdErrLog
+19:02:49.695 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+19:02:50.048 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
+19:02:51.394 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "acceptSslCerts": true,
   "browserName": "internet explorer",
   "ignoreProtectedModeSettings": true,
@@ -19,19 +11,27 @@
   "name": "Failure",
   "nativeEvents": false
 }
-11:57:29.312 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.ie.InternetExplorerDriverService)
-11:57:29.312 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.ie.InternetExplorerDriverService)
+19:02:51.394 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "internet explorer",
+  "ignoreProtectedModeSettings": true,
+  "javascriptEnabled": true,
+  "name": "Main",
+  "nativeEvents": false
+}
+19:02:51.395 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.ie.InternetExplorerDriverService)
+19:02:51.395 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.ie.InternetExplorerDriverService)
 Started InternetExplorerDriver server (32-bit)
 3.14.0.0
-Listening on port 4817
+Listening on port 31616
 Only local connections are allowed
 Started InternetExplorerDriver server (32-bit)
 3.14.0.0
-Listening on port 13167
+Listening on port 7369
 Only local connections are allowed
-11:57:32.192 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-11:57:32.236 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session a0fd1520-91ab-422b-8da4-e2537b4ae2f9 (org.openqa.selenium.ie.InternetExplorerDriverService)
-11:57:32.313 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-11:57:32.324 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 08099f44-445c-468d-8208-2e43859f44f0 (org.openqa.selenium.ie.InternetExplorerDriverService)
-11:57:37.171 INFO [ActiveSessions$1.onStop] - Removing session 08099f44-445c-468d-8208-2e43859f44f0 (org.openqa.selenium.ie.InternetExplorerDriverService)
-11:57:37.441 INFO [ActiveSessions$1.onStop] - Removing session a0fd1520-91ab-422b-8da4-e2537b4ae2f9 (org.openqa.selenium.ie.InternetExplorerDriverService)
+19:02:54.410 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+19:02:54.410 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+19:02:54.467 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 3976778e-1144-4e43-abcc-e1b5cf447ee7 (org.openqa.selenium.ie.InternetExplorerDriverService)
+19:02:54.467 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session f14e2e73-6280-4616-856c-8858dfe302e4 (org.openqa.selenium.ie.InternetExplorerDriverService)
+19:03:02.299 INFO [ActiveSessions$1.onStop] - Removing session 3976778e-1144-4e43-abcc-e1b5cf447ee7 (org.openqa.selenium.ie.InternetExplorerDriverService)
+19:03:02.363 INFO [ActiveSessions$1.onStop] - Removing session f14e2e73-6280-4616-856c-8858dfe302e4 (org.openqa.selenium.ie.InternetExplorerDriverService)
