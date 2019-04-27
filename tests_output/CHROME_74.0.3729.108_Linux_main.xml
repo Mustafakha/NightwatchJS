@@ -5,9 +5,9 @@
 
   <testsuite name="main"
     errors="0" failures="0" hostname="" id="" package="main" skipped="0"
-    tests="6" time="4.022" timestamp="">
+    tests="6" time="3.873" timestamp="">
   
-    <testcase name="GIVEN I am on the web page" classname="main" time="1.341" assertions="1">
+    <testcase name="GIVEN I am on the web page" classname="main" time="1.308" assertions="1">
 
     
     </testcase>
@@ -19,20 +19,20 @@
     
     </testcase>
   
-    <testcase name="WHEN I input the correct values and login" classname="main" time="0.9490" assertions="0">
+    <testcase name="WHEN I input the correct values and login" classname="main" time="0.9380" assertions="0">
     </testcase>
   
-    <testcase name="THEN the page will re load" classname="main" time="0.07300" assertions="1">
+    <testcase name="THEN the page will re load" classname="main" time="0.06100" assertions="1">
 
     
     </testcase>
   
-    <testcase name="AND the text class will be &#34;success&#34;" classname="main" time="0.05000" assertions="1">
+    <testcase name="AND the text class will be &#34;success&#34;" classname="main" time="0.04900" assertions="1">
 
     
     </testcase>
   
-    <testcase name="AND we compare screenshots" classname="main" time="1.538" assertions="1">
+    <testcase name="AND we compare screenshots" classname="main" time="1.446" assertions="1">
 
     
     </testcase>
