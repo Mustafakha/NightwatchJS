@@ -49,7 +49,7 @@ var config = {
                   host: "localhost",
                   server_path: selenium.path,
                   cli_args: {
-                    server_path : iedriver.path //or "webdriver.blah"
+                    server_path : iedriver.path 
                   }
                 },
                 desiredCapabilities: {
