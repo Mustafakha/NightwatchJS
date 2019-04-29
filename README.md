@@ -32,3 +32,10 @@ For **WINDOWS** run the following commands
 For **UBUNTU** run the following commands
 * `node nightwatch -e chrome`
 * Similarly, add `-a [TAG NAME] ` for running specific tests.
+
+## Note for Visual Regression screenshot test
+The first time tests are run, screenshots are taken and stored in tests/screenshots/baseline
+since it depends on computer to computer what the "ideal" screenshot looks like i.e minor changes in
+resolution or color can produce false negatives, therefore it can be platform dependent. As such, each user creates their own ideal screenshot the first time the tests are run.
+If running both chrome and IE, chrome finishes first and posts in this directory and as such, IE will
+try and compare to chrome screenshots producing errors.
