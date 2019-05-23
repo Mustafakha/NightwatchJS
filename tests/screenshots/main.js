@@ -1,4 +1,4 @@
-var helper = require('../helpers/helpers.js')
+var helper = require('../../helpers/helpers.js')
 module.exports = {
   before : function (browser){
     browser.deleteCookies();
